@@ -1,0 +1,42 @@
+@keyframes blink-drop {
+    0% {
+        transform: scale(0.4);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.4);
+    }
+}
+@keyframes blink-move {
+    0% {
+        top: 85%;
+        left: 10%;
+    }
+    25%{
+        top: 75%;
+        left: 15%;
+    }
+    50% {
+        top: 75%;
+        left: 30%;
+    }
+    75%{
+        top: 85%;
+        left: 30%;
+    }
+    100% {
+        top: 85%;
+        left: 10%;
+    }
+}
+@keyframes square-blink {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+

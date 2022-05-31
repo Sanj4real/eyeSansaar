@@ -1,0 +1,21 @@
+// button
+$button: ".all-button ";
+$button: "all-button button";
+
+#{$button} {
+    padding: 10px 25px;
+    box-shadow: 0px 3px 8px -3px rgba(1, 1, 1, 0.5);
+    outline: none;
+    border: 0;
+    background: $blue;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.5s;
+    transition: all 0.6s ease-in-out;
+    &:hover {
+        // background: $green-hover;
+            color: #fff;
+    }
+}
